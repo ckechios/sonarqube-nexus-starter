@@ -108,6 +108,7 @@ mvn deploy package   # For Nexus deployment
     - To run pacakge
       - > calculator (main) $ mvn clean package
       - > calculator (main) $ java -jar target/calculator-1.0-SNAPSHOT.jar
+    - To Deploy package as an artifact from POM.xml remove -SNAPSHOT from <version> tag
 
 ## scanning with sonar locally
 - Port is 9000 : Make port Public
